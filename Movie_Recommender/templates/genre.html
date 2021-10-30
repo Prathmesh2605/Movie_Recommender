@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html>
+  <head>
+    <script></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Genre</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link type="text/css" rel="stylesheet" href="{%static 'css/genre.css' %}" />
+  </head>
+  <body>
+    <form method="POST" action="/GenreView">
+      {% csrf_token %}
+
+      <div class="form__group field">
+        <input
+          type="input"
+          class="form__field"
+          placeholder="Genre"
+          name="genre"
+          id="genre"
+          required
+        />
+        <label for="genre" class="form__label">Enter Genre</label>
+      </div>
+
+      <a class="btn" type="submit"><span class="btnspan">&rarr; </span></a>
+    </form>
+    <script src="static/css/main.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  </body>
+</html>
