@@ -79,6 +79,7 @@ body {
   width: 6em;
   z-index: 2;
   margin: 20px;
+  margin-left: 300px;
 }
 
 .btn:hover {

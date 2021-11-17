@@ -6,6 +6,7 @@
 h4 {
   color: white;
   font-size: xx-large;
+  text-indent: 50px;
 }
 body {
   width: 99%;
@@ -73,34 +74,7 @@ a:active {
 .card0:hover .fa {
   opacity: 1;
 }
-.card1 {
-  background: url("../img/movies1.jpg") center center no-repeat;
-  background-size: 300px;
-}
-.card1:hover {
-  background: url("../img/movies1.jpg") left center no-repeat;
-  background-size: 600px;
-}
-.card1:hover h2 {
-  opacity: 1;
-}
-.card1:hover .fa {
-  opacity: 1;
-}
-.card2 {
-  background: url("../img/movies2.jpg") center center no-repeat;
-  background-size: 300px;
-}
-.card2:hover {
-  background: url("../img/movies2.jpg") left center no-repeat;
-  background-size: 600px;
-}
-.card2:hover h2 {
-  opacity: 1;
-}
-.card2:hover .fa {
-  opacity: 1;
-}
+
 h2 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff;

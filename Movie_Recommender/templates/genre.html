@@ -17,10 +17,8 @@
     <link type="text/css" rel="stylesheet" href="{%static 'css/genre.css' %}" />
   </head>
   <body>
-    <form method="POST" action="/GenreView">
-      {% csrf_token %}
-
-      <div class="form__group field">
+    <form class="form__group field" method="GET" action="search/">
+      <div>
         <input
           type="input"
           class="form__field"
@@ -29,10 +27,12 @@
           id="genre"
           required
         />
-        <label for="genre" class="form__label">Enter Genre</label>
+        <label for="genre" class="form__label">Enter Genre, Keyword</label>
       </div>
 
-      <a class="btn" type="submit"><span class="btnspan">&rarr; </span></a>
+      <button class="btn" type="submit">
+        <span class="btnspan">&rarr; </span>
+      </button>
     </form>
     <script src="static/css/main.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>

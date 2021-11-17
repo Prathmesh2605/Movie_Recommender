@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Exo:400,700");
+* {
+  font-family: "Exo", sans-serif;
+}
+
+h3 {
+  color: whitesmoke;
+  text-align: center;
+  padding: 20px;
+}
+body {
+  background: black;
+}
+
+.mve {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+.img {
+  color: white;
+}
